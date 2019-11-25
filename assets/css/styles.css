@@ -1,0 +1,172 @@
+/* style for all the pages */
+
+body {
+    /* typography */
+    font-family: Arial, "Helvetica Neue" Helvetica, sans-serif;
+    /* visual */
+    background-image: url("../images/papyrus.png");
+}
+
+html {
+    /* positioning */
+    position: relative;
+    /* box-model */
+    min-height: 100%;
+}
+
+/* this will add space for the fixed nav */
+main {
+    margin: 80px 0;
+}
+
+/* this will style all of the white main boxes */
+.block {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.block-header {
+    /* typography for the block-header */
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+/* styling for nav bar */
+#logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* typography for nav bar */
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    /* visual for nav bar */
+    background: #4aaaa5;
+}
+
+/* this will override the bootstrap hover color and border */
+.navbar-default .navbar-nav > li > a:hover {
+    color: #4aaaa5;
+}
+.navbar {
+    background: white;
+    border: none;
+}
+
+/* this will reposition (media query) for nav background color change */
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+        background-color: #4aaaa5;
+    }
+}
+/* end nav */
+
+/* connect with me css */
+.connect-header {
+    /* typography */
+    font-size: 25px;
+}
+
+.connect-photo {
+    /* box-model */
+    width:  55px;
+    height: 55px;
+}
+.about-me-photo {
+    /* box-model */
+    width: 400px;
+}
+
+#images {
+    /* box-model */
+    padding-top: 15px;
+    width:  200px;
+    height: 200px;
+    /* typography */
+    text-align: center;
+}
+/* end of connect with me css */
+
+/* begin footer */
+.footer {
+    /* positioning */
+    position: absolute;
+    bottom: 0;
+    /* box-model */
+    width:  100%;
+    height: 60px;
+    /* visual */
+    background-color: #666;
+}
+.text-muted-footer {
+    /* box-model */
+    margin-top: 15px;
+    /* typography */
+    color: #fff;
+}
+.two-toned-footer-color {
+    /* box-model */
+    height: 6px;
+    padding-top: 3px;
+    /* visual */
+    background-color: #4aaaa5;
+}
+/* end of footer */
+/* end of the styling for all the pages */
+
+/* page specific styles */
+/* styling for the (about me) page */
+.about-me-header {
+    /* positioning */
+    margin-bottom: 33px;
+    /* typography */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 48px;
+    font-weight: bold;
+    color: #4aaaa5;
+}
+
+#about-image {
+    /* positioning */
+    float: left;
+    /* box-model */
+    width: 200px;
+    height: 200px;
+    margin: 0 20px 10px 0;
+}
+/* end (about me) page */
+
+/* portfolio page */
+.port-image {
+    /* box-model */
+    width:  350px;
+    height: 200px;
+    margin: 20px auto;
+}
+/* end of portfolio page */
+
+/* contact form page */
+.form-control {
+    /* this will give the input boxes right angles */
+    border-radius: 0;
+    /* keep from horizontally resizing text area */
+    min-width: 100%;
+    max-width: 100%;
+}
+
+/* button */
+.submit-btn {
+    /* box-model */
+    padding: 15px 30px;
+    /* typography */
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    /* visual */
+    background-color: #4aaaa5;
+    border: 0;
+}
+.submit-btn:hover {
+    opacity: .7;
+}
+/* end of the contact form page */
