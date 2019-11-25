@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-<img src="">
+<img src="assets/images/readme-image.JPG">
 
 ## Description
 Bootstrap (content delivery network) was used to implement a CSS framework.
